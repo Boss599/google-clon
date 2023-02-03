@@ -9,23 +9,24 @@
   </head>
   <body>
     <header>
+      
       <nav>
         <ul class="nav-rigth-section">
           <li>
-            <a href="#">Gmail</a>
+            <a href="#" onclick="aviso()">Gmail</a>
           </li>
           <li>
-            <a href="#">Imagenes</a>
+            <a href="#" onclick="aviso()">Imagenes</a>
           </li>
-          <li class="menu-icon">
-            <a href=""> </a>
+          <li class="menu-icon" onclick="aviso()">
+            <a href="#"onclick="aviso()"></a>
           </li>
 
           <li>
-            <a href="">
-              <img
+            <a href="#" >
+              <img  onclick="aviso()"
                 src="https://lh3.googleusercontent.com/ogw/AAEL6shYCMctp-8TgLyv-M5T0_UOpqpxhuNEGJ97K7Jq-Q=s32-c-mo"
-                alt=""
+                alt="logo del usuario" 
               />
             </a>
           </li>
@@ -38,31 +39,35 @@
         </section>
         <section class="main-input">
             <div class="main-input-container">
-                <span class="search-icon"></span>
-                <input type="text">
-                <a class="micro-icon" href=""></a>
+                <span class="search-icon" onclick="aviso()"></span>
+                <input type="text" placeholder="Esciba su busqueda" >
+                <a class="micro-icon" href="#"onclick="aviso()"></a>
             </input>
             </div>
         
         </section>
         <section class="main-buttons">
-            <div><button>Buscar con Google</button></div>
-            <div><button>Me siento con suerte</button></div>
+            <div><button  onclick="aviso()">Buscar con Google</button></div>
+            <div><button onclick="aviso()">Me siento con suerte</button></div>
 
         </section>
     </main>
     <footer>
       <ul class="footer-left">
-        <li><a href="#">Publicidad</a></li>
-        <li><a href="#">Negocio</a></li>
-        <li><a href="#">Acerca de</a></li>
-        <li><a href="#">Como funciona la busqueda</a></li>
+        <li><a href="#"onclick="aviso()">Publicidad</a></li>
+        <li><a href="#"onclick="aviso()">Negocio</a></li>
+        <li><a href="#"onclick="aviso()">Acerca de</a></li>
+        <li><a href="#"onclick="aviso()">Como funciona la busqueda</a></li>
       </ul>
       <ul class="footer-right">
-        <li><a href="#">Privacidad</a></li>
-        <li><a href="#">Condiciones</a></li>
-        <li><a href="#">Preferencias</a></li>
+        <li><a href="#" onclick="aviso()">Privacidad</a></li>
+        <li><a href="#" onclick="aviso()">Condiciones</a></li>
+        <li><a href="#" onclick="aviso()">Preferencias</a></li>
       </ul>
     </footer>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="sweetAlert.js"></script>
+
   </body>
+  
 </html>
