@@ -6,11 +6,13 @@ Swal.fire({
   timer: 5000,
   timerProgressBar: true,
   allowOutsideClick: false,
+  confirmButtonText:"Aceptar"
 });
 
 function aviso() {
   Swal.fire({
     icon: "error",
     text: "No esta habiliadata esta funcion por los momentos",
+    confirmButtonText:"Aceptar"
   });
 }
